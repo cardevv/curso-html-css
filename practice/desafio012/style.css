@@ -21,6 +21,10 @@ header{
     text-align: center;
     padding: 30px;
 }
+h1{
+    font-family: var(--fonte1);
+    font-size: 3em;
+}
 
 section{
 
@@ -29,8 +33,10 @@ section{
 }
 
 .estrofe > p{
-    padding-top: 100px;
+    
     text-align: left;
+    font-family: var(--fonte2);
+    font-size: 1em;
 }
 
 
