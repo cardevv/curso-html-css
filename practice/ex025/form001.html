@@ -7,15 +7,18 @@
     <title>formulario</title>
 </head>
 <body>
-    <form  action="cadastro.js" autocomplete="off">
+    <form  action="cadastro.php" autocomplete="off" method="post">
         <p><label for="inome">Nome:</label> 
-            <input type="text" name="nome" id="inome"></p>
-        <p><label for="isobrenome">Sobrenome:</label> 
-            <input type="text" name="sobrenome" id="isobrenome"> </p>
+            <input type="text" name="nome" id="inome"  required></p>
+        <p><label for="isobrenome">Sobrenome:</label required> 
+            <input type="text" name="sobrenome" id="isobrenome" required> </p>
         <p>Senha: 
-            <input type="password" name="senha" id="senha"></p>
+            <input type="password" name="senha" id="senha" required></p>
 
+        <p>
         <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+        </p>
         
 
     </form>
