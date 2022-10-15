@@ -20,9 +20,9 @@ header > h1 {
     text-align: center;
 }
 
-span#menu {
+span#burguer {
     background-color: rgb(49, 49, 49);
-    display: block;
+    width: 100vw;
     color: white;
     text-align: center;
     padding: 10px;
@@ -30,7 +30,7 @@ span#menu {
 
 }
 
-span#menu:hover{
+span#burguer:hover{
     background-color: white;
     color:black;
 } 
